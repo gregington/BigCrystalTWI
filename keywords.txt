@@ -1,0 +1,19 @@
+#######################################
+# Syntax Coloring Map For BigCrystalTWI
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+BigCrystalTWI	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+widthBig	KEYWORD2
+writeBig	KEYWORD2
+printBig	KEYWORD2
+
+
