@@ -6,6 +6,10 @@
 
 class BigCrystalTWI : public LiquidTWI {
 public:
+  /* Creates BigCrystalTWI instance for a display on the specified i2c address.
+   * Parameters
+   *   i2cAddr: the i2c address of the display
+   */
   BigCrystalTWI(uint8_t i2cAddr);
 
   /* Returns the width in columns of the specified character.
