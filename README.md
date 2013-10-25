@@ -1,6 +1,11 @@
 BigCrystalTWI
 =============
 
+**NOTE:** The BigCrystalTWI library will **no longer be actively maintained**.
+The [BigCrystal](https://github.com/gregington/BigCrystal) library now supports a much wider range of LCD hardware
+through the [New LiquidCrystal](https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home) library making this
+project obsolete.
+
 Arduino Library for displaying double height characters on an LCD display
 over I<sup>2</sup>C (Two Wire Interface).
 
