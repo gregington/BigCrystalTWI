@@ -1,16 +1,13 @@
 BigCrystalTWI
 =============
 
-**NOTE:** The BigCrystalTWI library will **no longer be actively maintained**.
-The [BigCrystal](https://github.com/gregington/BigCrystal) library now supports a much wider range of LCD hardware
-through the [New LiquidCrystal](https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home) library making this
-project obsolete.
-
 Arduino Library for displaying double height characters on an LCD display
-over I<sup>2</sup>C (Two Wire Interface).
+over I<sup>2</sup>C (Two Wire Interface) **using the MCP2008 chipset**, such as
+the Adafruit backpack. This library will not work for other I<sup>2</sup>C chipsets.
 
 A corresponding library, [BigCrystal](https://github.com/gregington/BigCrystal)
-is available to use if connecting the LCD pins directly to an Arduino.
+supports other connection methods, such as 4 and 8 bit parallel, I<sup>2</sup>C
+using the PFC8574 expander and shift registers.
 
 Usage
 -----
