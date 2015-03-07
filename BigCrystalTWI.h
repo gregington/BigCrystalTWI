@@ -48,7 +48,7 @@ public:
   uint8_t printBig(char *str, uint8_t col, uint8_t row);
 private:
   uint8_t getWidthFromTableCode(uint8_t tableCode);
-  uint8_t* getTable(uint8_t tableCode);
+  const uint8_t* getTable(uint8_t tableCode);
   void getTableCodeAndIndex(char c, uint8_t &tableCode, uint8_t &index);
   void clearColumn(uint8_t row, uint8_t col);
   char toUpperCase(char c);
